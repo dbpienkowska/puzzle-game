@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/puzzleLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    tools:context=".PuzzleActivity">
+
+    <Chronometer
+        android:id="@+id/puzzleChronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/puzzleScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@id/puzzleScoreText"
+        android:visibility="gone"
+        android:alpha="0"
+        android:text="@string/finish"
+        android:layout_marginBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/puzzleScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@id/puzzleAgain"
+        android:visibility="gone"
+        android:alpha="0"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/puzzleAgain"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/puzzleExit"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:alpha="0"
+        android:text="@string/play_again"/>
+
+    <Button
+        android:id="@+id/puzzleExit"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:alpha="0"
+        android:text="@string/exit"/>
+
+</RelativeLayout>

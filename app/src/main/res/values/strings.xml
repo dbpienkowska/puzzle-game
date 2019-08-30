@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PuzzleGame</string>
+    <string name="exit">Exit</string>
+    <string name="finish">Bravo! You made it in</string>
+    <string name="instruction">Pick image by swiping.\nLook at it closely.\n\nTap PLAY button,\nwhen you\'re ready to puzzle.</string>
+    <string name="play_again">Try again</string>
+    <string name="play">Play</string>
+</resources>

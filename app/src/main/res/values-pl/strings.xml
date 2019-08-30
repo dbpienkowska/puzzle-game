@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PuzzleGame</string>
+    <string name="exit">Wyjdź</string>
+    <string name="finish">Brawo! Udało Ci się w</string>
+    <string name="instruction">Wybierz obrazek przesuwając palcem.\nPrzyjrzyj się mu dokładnie.\n\nNaciśnij przycisk GRAJ,\nkiedy będziesz gotowy układać puzzle.</string>
+    <string name="play">Graj</string>
+    <string name="play_again">Jeszcze raz</string>
+</resources>
