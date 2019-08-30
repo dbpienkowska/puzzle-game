@@ -129,12 +129,14 @@ public class PuzzleActivity extends AppCompatActivity {
         puzzle.view.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View puzzleView, MotionEvent event) {
+                puzzleView.getParent().bringChildToFront(puzzleView);
+
                 if (tapDetector.onTouchEvent(event)) {
+                    puzzle.lift();
                     puzzle.rotate(1);
+                    puzzle.drop();
                 }
                 else {
-                    puzzleView.getParent().bringChildToFront(puzzleView);
-
                     final int rawX = (int) event.getRawX();
                     final int rawY = (int) event.getRawY();
 
