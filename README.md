@@ -26,3 +26,7 @@ Native Android puzzle game - put wild cats' images together!
 Polish language available!
 
 <img src="presentation/Screenshot_0_PL.png" width="200"> <img src="presentation/Screenshot_1_PL.png" width="200">
+
+## Used Libraries
+
+- [Glide](https://bumptech.github.io/glide/)
